@@ -7,7 +7,7 @@ import java.sql.ResultSet;
 import com.iu.home.util.DBConnection;
 
 public class MemberDAO {
-	
+	//---
 	// setAddMember
 	public int setAddMember(MemberDTO memberDTO) throws Exception {
 		Connection connection = DBConnection.getConnection();
